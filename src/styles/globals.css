@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import 'bootstrap/scss/bootstrap'; */
+
+*{
+  color: white;
+  overflow:hidden ;
+}
+.parent{
+width: 100%;
+height: 100%;
+background-image: linear-gradient(to bottom, rgba(9, 60, 118, 0.253) ,rgba(27, 90, 142, 0.303));
+position: relative;
+
+}
+
+.bg-vdo{
+  position: absolute;
+  background: url('../content/bgimage.jpg');
+  opacity: 0.7;
+  display: block;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  z-index: -1;
+}
+
